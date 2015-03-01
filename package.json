@@ -1,0 +1,47 @@
+{
+  "name": "dazzling-path",
+  "version": "0.0.0",
+  "description": "The best module ever.",
+  "author": {
+    "name": "Olivier Huin",
+    "email": ""
+  },
+  "repository": "olih/dazzling-path",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "dazzling-path",
+    ""
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "lodash": "^3.1.0",
+    "meow": "^2.0.0",
+    "paths-js": "^0.3.0",
+    "polygon": "^1.0.0",
+    "string": "^3.0.0",
+    "svg-path-parser": "^1.0.1",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "grunt-bump": "^0.3.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "dazzling-path": "cli.js"
+  }
+}
