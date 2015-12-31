@@ -1,6 +1,6 @@
 {
   "name": "dazzling-path",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Artistic and experimental library to facilitate special effects on svg path",
   "author": {
     "name": "Olivier Huin",
